@@ -8,7 +8,7 @@ const Hero = () => {
         <source type="image/avif" srcSet="/images/hero-img.avif 1x, /images/hero-img@2x.avif 2x" />
         <source type="image/jpeg" srcSet="/images/hero-img.jpg 1x, /images/hero-img@2x.jpg 2x" />
 
-        <HeroImage src="/images/hero-img.jpg" alt="A cat with a piercing glance" />
+        <HeroImage src="/images/hero-img.jpg" alt="Example photo: a cat on a black background" />
       </picture>
       <Swoop src="/swoop.svg" alt="" />
     </Wrapper>
