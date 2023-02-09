@@ -40,10 +40,11 @@ const Tags = styled.ul`
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: clip;
+  padding: 4px 0;
 `;
 
 const Tag = styled.li`
-  display: inline-block;
+  display: inline;
   padding: 4px 8px;
   background: var(--color-gray-300);
   font-size: 0.875rem;
